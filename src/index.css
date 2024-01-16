@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100vh;
+  overflow: auto;
+
+  background-image: url('/background-image.jpg');
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
