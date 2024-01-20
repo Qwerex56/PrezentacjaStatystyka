@@ -126,9 +126,8 @@
     <template #content>
       <p>
         Krzywa reprezentująca dowolny rozkład prawdopodobieństwa jest skonstruowana w taki sposób, 
-        że prawdopodobieństwo wystąpienia określonej zmiennej losowej X w przedziale między dwoma punktami x1 i x2 
+        że prawdopodobieństwo wystąpienia określonej zmiennej losowej X w przedziale między dwoma punktami x<sub>1</sub> i x<sub>2</sub> 
         jest równoważne obszarowi pod krzywą, który jest obliczany właśnie dla tych wartości.
-
       </p>
       
       <br>
@@ -136,6 +135,11 @@
       <br>
       
       <p>
+        Zauważyliśmy wcześniej, że kształt krzywej rozkładu normalnego określany jest przez wartości 
+        średniej oraz odchylenia standardowego. Stąd obszar pod krzywą również zależy od tych parametrów. 
+        
+        <br>
+
         Aby obliczyć to pole, stosujemy wzór rozkładu normalnego. W przypadku standardowego rozkładu normalnego, 
         korzystamy z wcześniej obliczonych wartości dostępnych w tablicy.
       </p>
@@ -145,18 +149,26 @@
       <br>
 
       <p>
-        Zauważyliśmy wcześniej, że kształt krzywej rozkładu normalnego określany jest przez wartości 
-        średniej oraz odchylenia standardowego. Stąd obszar pod krzywą również zależy od tych parametrów. 
+        Wzór ten bywa trudny do policzenia, dlatego można zrzutować wartość z<sub>1</sub> i z<sub>2</sub> 
+        rozkładu normalnego na wartości standardowego rozkładu normalnego x<sub>1</sub> i x<sub>2</sub> .  
+      </p>
+
+      <br>
+      <img src="/PolePodWykresem/zmiana-x-na-z.png" alt="wzór" class="w-2/12 mx-auto">
+      <br>
+
+      <p>
+        Wtedy wartości x<sub>1</sub> i x<sub>2</sub>  można odczytać z tabeli i ułatwić sobie obliczenia. 
       </p>
 
       <br>
 
       <p>
-        Czasami może też zdarzyć się tak że będziemy musieli znaleźć wartość odpowiadającą konkretnemu prawdopodobieństwu, np. ???
+        Czasami może też zdarzyć się tak że będziemy musieli znaleźć wartość odpowiadającą konkretnemu prawdopodobieństwu
       </p>
 
       <br>
-      <img src="" alt="wykres/wzór">
+      <img src="/PolePodWykresem/odwrocenie-wzoru.png" alt="wykres/wzór" class="w-6/12 mx-auto">
       <br>
     </template>
   </TextBox>
