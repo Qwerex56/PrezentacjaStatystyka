@@ -175,13 +175,11 @@
 
   <TextBox>
     <template #Subtitle>
-      Przykłady
+      Przykład
     </template>
     
     <template #content>
-      <p>
-
-      </p>
+      <img src="/PolePodWykresem/zadanie.png" alt="zadanie">
     </template>
   </TextBox>
 
